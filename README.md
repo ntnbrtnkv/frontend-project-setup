@@ -57,3 +57,5 @@ $ npm -v
    ```bash
    $ npm add style-loader css-loader -D
    ```
+
+8. Воспользуемся css модулями

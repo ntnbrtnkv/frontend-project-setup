@@ -1,7 +1,9 @@
 import $ from 'jquery';
 
-import './styles.css';
+import styles from './styles.css';
 
-const div = $('<div class="message">Hello Xsolla school!</div>');
+const div = $('<div>Hello Xsolla school!</div>');
+
+div.addClass(styles.message)
 
 $(document.body).append(div);

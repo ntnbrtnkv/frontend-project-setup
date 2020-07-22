@@ -22,3 +22,15 @@ $ npm -v
    ```bash
    $ npm init
    ```
+
+3. Установим jquey и webpack
+   ```bash
+   $ npm add jquery
+   $ npm add webpack webpack-cli -D
+   ```
+
+   Изменим js и html
+
+   ```bash
+   $ npx webpack
+   ```

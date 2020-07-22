@@ -1,5 +1,5 @@
-const div = document.createElement('div');
+import $ from 'jquery';
 
-div.innerHTML = 'Hello school';
+const div = $('<div>Hello school!</div>');
 
-document.body.appendChild(div);
+$(document.body).append(div);

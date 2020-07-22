@@ -39,3 +39,11 @@ $ npm -v
    ```bash
    $ npm run build
    ```
+
+5. Добавим webpack dev server и скрипт
+   ```bash
+   $ npm add webpack-dev-server nodemon -D
+   $ npm run start
+   ```
+
+   И откроем браузер http://localhost:9000/

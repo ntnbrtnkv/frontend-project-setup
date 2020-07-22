@@ -34,3 +34,8 @@ $ npm -v
    ```bash
    $ npx webpack
    ```
+
+4. Сконфигурируем webpack через файл `webpack.config.js` и добавим скрипт
+   ```bash
+   $ npm run build
+   ```

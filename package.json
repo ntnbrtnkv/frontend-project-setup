@@ -4,7 +4,7 @@
   "description": "1. [Node](https://nodejs.org/en/)\r 2. Npm (по-умолчанию ставится вместое с node)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode=production"
   },
   "repository": {
     "type": "git",

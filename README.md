@@ -52,3 +52,8 @@ $ npm -v
    ```bash
    $ npm add html-webpack-plugin -D
    ```
+
+7. Добавим стили
+   ```bash
+   $ npm add style-loader css-loader -D
+   ```

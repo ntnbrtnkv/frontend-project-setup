@@ -59,3 +59,9 @@ $ npm -v
    ```
 
 8. Воспользуемся css модулями
+
+9. Генерируем css в отдельные файлы, добавляем [HMR](https://webpack.js.org/concepts/hot-module-replacement/)
+   ```bash
+   $ npm remove style-loader -D
+   $ npm add mini-css-extract-plugin -D
+   ```

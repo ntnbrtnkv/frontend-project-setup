@@ -47,3 +47,8 @@ $ npm -v
    ```
 
    И откроем браузер http://localhost:9000/
+
+6. Генерируем html через webpack
+   ```bash
+   $ npm add html-webpack-plugin -D
+   ```

@@ -72,3 +72,7 @@ $ npm -v
     $ npm add react react-dom
     ```
 
+11. Добавим загрузку изображений
+    ```bash
+    $ npm add file-loader -D
+    ```

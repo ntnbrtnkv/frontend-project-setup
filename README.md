@@ -76,3 +76,5 @@ $ npm -v
     ```bash
     $ npm add file-loader -D
     ```
+
+12. Добавим source maps

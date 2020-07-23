@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-module.exports = {
+module.exports = (env, argv) => ({
   entry: './src/index.jsx',
   output: {
     filename: 'main.js',
@@ -11,6 +11,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
   },
+  devtool: argv.mode === 'production' ? 'hidden-source-map' : 'source-map',
   plugins: [
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
@@ -50,4 +51,4 @@ module.exports = {
     contentBase: path.join(__dirname, 'dist'),
     port: 9000
   }
-};
+});

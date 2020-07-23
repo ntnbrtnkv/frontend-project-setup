@@ -83,3 +83,8 @@ $ npm -v
     ```bash
     $ npm add @babel/preset-env postcss-loader autoprefixer -D
     ```
+
+14. Добавим линтер
+    ```bash
+    $ npm add eslint eslint-plugin-react babel-eslint -D
+    ```

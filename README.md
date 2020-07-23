@@ -65,3 +65,10 @@ $ npm -v
    $ npm remove style-loader -D
    $ npm add mini-css-extract-plugin -D
    ```
+
+10. Добавим babel и react
+    ```bash
+    $ npm add babel-loader @babel/core @babel/preset-react -D
+    $ npm add react react-dom
+    ```
+

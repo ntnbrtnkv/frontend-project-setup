@@ -42,7 +42,8 @@ module.exports = (env, argv) => ({
             options: {
               modules: true
             }
-          }
+          },
+          'postcss-loader'
         ],
       },
     ],

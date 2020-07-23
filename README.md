@@ -78,3 +78,8 @@ $ npm -v
     ```
 
 12. Добавим source maps
+
+13. Добавим поддержку старых браузеров
+    ```bash
+    $ npm add @babel/preset-env postcss-loader autoprefixer -D
+    ```

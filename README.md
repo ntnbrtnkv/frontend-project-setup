@@ -88,3 +88,32 @@ $ npm -v
     ```bash
     $ npm add eslint eslint-plugin-react babel-eslint -D
     ```
+
+## Домашнее задание
+
+1. Рендерить приложение не в body, а в отдельный элемент с `id='root'`
+
+   https://ru.reactjs.org/docs/rendering-elements.html#rendering-an-element-into-the-dom
+
+2. Добавить Scss
+
+   https://webpack.js.org/loaders/sass-loader/
+
+   Должны быть использованы [переменные](https://sass-scss.ru/guide/#topic-2) в стилях
+
+3. Подключить готовый конфиг для eslint (один из)
+
+   * https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
+
+   * https://github.com/standard/eslint-config-standard
+
+4. \* Добавить горячую подмену модулей react
+
+   1. Включить механизм HMR в webpack
+      https://webpack.js.org/configuration/dev-server/#devserverhot
+
+   2. Включить подмену модулей без перезагрузки страницы
+      https://github.com/gaearon/react-hot-loader
+
+   В результате, обновление реакт компонент не должно приводит к перезагрузке всей страницы и состояние приложения не должно сбрасываться (например, поля форм не должны очищаться)
+   ![](./HMR-react.gif)
